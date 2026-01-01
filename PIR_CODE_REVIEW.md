@@ -71,7 +71,8 @@ This upgraded implementation adds PIR motion sensor control to your ESP32-C3 Sup
 
 ```
 ESP32-C3 SuperMini
-├─ GPIO 8: PIR Sensor Input + Light Control Output
+├─ GPIO 8: PIR Sensor Input
+├─ GPIO 10: Light Control Output
 └─ Power/GND: Proper decoupling
 
 PIR Sensor Connection:
@@ -80,7 +81,7 @@ GND → GND
 OUT → GPIO 8
 
 Light/Relay Connection:
-Control → GPIO 8 (via transistor/relay if high current)
+Control → GPIO 10 (via transistor/relay if high current)
 ```
 
 ## How It Works
@@ -105,19 +106,20 @@ Control → GPIO 8 (via transistor/relay if high current)
 
 ## Configuration
 
-All parameters are configurable in `app_main.cpp`:
+All parameters are configurable in your code:
 
 ```cpp
 pir_light_config_t pir_config = {
-    .pir_gpio = GPIO_NUM_8,              // PIR input pin
-    .light_gpio = GPIO_NUM_8,            // Light output pin
-    .inactivity_timeout_ms = 5 * 60 * 1000,  // 5 minutes
-    .debounce_ms = 100,                  // 100ms debounce
+   .pir_gpio = GPIO_NUM_8,      // PIR sensor input
+   .light_gpio = GPIO_NUM_10,   // Light control output
+   .inactivity_timeout_ms = 5 * 60 * 1000, // 5 minutes
+   .debounce_ms = 100,          // 100ms debounce
 };
+pir_light_init(&pir_config);
 ```
 
 To change settings:
-- **Different GPIO pins**: Update `GPIO_NUM_8` values
+- **Different GPIO pins**: Update `GPIO_NUM_8` and `GPIO_NUM_10` values
 - **Different timeout**: Adjust `inactivity_timeout_ms` (in milliseconds)
 - **Adjust debounce**: Change `debounce_ms` if sensor is too sensitive
 
@@ -148,7 +150,7 @@ Expected logs when running:
 
 ```
 I (12345) app_main: PIR Motion Sensor initialized successfully
-I (12346) pir_light: PIR Light Control initialized: PIR=GPIO8, Light=GPIO8, Timeout=300000ms
+I (12346) pir_light: PIR Light Control initialized: PIR=GPIO8, Light=GPIO10, Timeout=300000ms
 I (12400) pir_light: Motion detected, timer reset
 I (12401) pir_light: Light turned ON
 I (315000) pir_light: Inactivity timeout: turning light OFF
@@ -159,6 +161,7 @@ I (315001) pir_light: Light turned OFF
 
 ### Light won't turn on:
 - Check GPIO 8 connection to PIR sensor
+- Check GPIO 10 connection to relay/light
 - Verify PIR sensor is powered (check VCC)
 - Ensure PIR sensor is working (test with LED)
 
