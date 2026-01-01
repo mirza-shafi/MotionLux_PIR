@@ -1,0 +1,19 @@
+# ESP-IDF build and config files
+build/
+sdkconfig
+sdkconfig.old
+config.env
+log/
+gdbinit/
+
+# Compiled object files and binaries
+*.pyc
+*.o
+*.elf
+*.bin
+*.map
+
+# IDE/editor files
+.vscode/
+.idea/
+.DS_Store
