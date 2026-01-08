@@ -5862,6 +5862,39 @@
                 "range": null,
                 "title": "Enable Memory Profiling",
                 "type": "bool"
+            },
+            {
+                "children": [],
+                "depends_on": null,
+                "help": "GPIO pin connected to PIR sensor output (default: GPIO10 for ESP32-C3)",
+                "id": "PIR_GPIO",
+                "name": "PIR_GPIO",
+                "range": null,
+                "title": "PIR Sensor GPIO",
+                "type": "int"
+            },
+            {
+                "children": [],
+                "depends_on": null,
+                "help": "GPIO pin for light control (default: GPIO8 for ESP32-C3)",
+                "id": "LIGHT_GPIO",
+                "name": "LIGHT_GPIO",
+                "range": null,
+                "title": "Light Control GPIO",
+                "type": "int"
+            },
+            {
+                "children": [],
+                "depends_on": null,
+                "help": "Time in seconds before light turns off after no motion detected (default: 120 = 2 minutes)",
+                "id": "PIR_TIMEOUT_SECONDS",
+                "name": "PIR_TIMEOUT_SECONDS",
+                "range": [
+                    10,
+                    600
+                ],
+                "title": "PIR Inactivity Timeout (seconds)",
+                "type": "int"
             }
         ],
         "depends_on": null,

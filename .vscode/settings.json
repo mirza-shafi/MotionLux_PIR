@@ -2,7 +2,7 @@
   "C_Cpp.intelliSenseEngine": "default",
   "idf.espIdfPath": "/Users/mirzashafi/esp/v5.5.1/esp-idf",
   "idf.toolsPath": "/Users/mirzashafi/.espressif",
-  "idf.pythonInstallPath": "/opt/homebrew/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/bin/python3",
+  "idf.pythonInstallPath": "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
   "idf.openOcdConfigs": [
     "board/esp32c3-builtin.cfg"
   ],

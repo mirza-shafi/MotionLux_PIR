@@ -23,8 +23,8 @@ end
 
 # Load bootloader symbols
 set confirm off
-    add-symbol-file /Users/mirzashafi/esp/light/build/bootloader/bootloader.elf
+    add-symbol-file /Users/mirzashafi/esp/MotionLux_PIR/build/bootloader/bootloader.elf
 set confirm on
 
 # Load application symbols
-file /Users/mirzashafi/esp/light/build/light.elf
+file /Users/mirzashafi/esp/MotionLux_PIR/build/light.elf

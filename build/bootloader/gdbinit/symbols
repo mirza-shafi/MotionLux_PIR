@@ -27,4 +27,4 @@ set confirm off
 set confirm on
 
 # Load application symbols
-file /Users/mirzashafi/esp/light/build/bootloader/bootloader.elf
+file /Users/mirzashafi/esp/MotionLux_PIR/build/bootloader/bootloader.elf

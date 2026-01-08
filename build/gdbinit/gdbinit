@@ -1,2 +1,2 @@
-source /Users/mirzashafi/esp/light/build/gdbinit/symbols
-source /Users/mirzashafi/esp/light/build/gdbinit/connect
+source /Users/mirzashafi/esp/MotionLux_PIR/build/gdbinit/symbols
+source /Users/mirzashafi/esp/MotionLux_PIR/build/gdbinit/connect

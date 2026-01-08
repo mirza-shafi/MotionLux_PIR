@@ -10,18 +10,18 @@ if(NOT EXISTS "/Users/mirzashafi/esp/v5.5.1/esp-idf/components/bootloader/subpro
   file(MAKE_DIRECTORY "/Users/mirzashafi/esp/v5.5.1/esp-idf/components/bootloader/subproject")
 endif()
 file(MAKE_DIRECTORY
-  "/Users/mirzashafi/esp/light/build/bootloader"
-  "/Users/mirzashafi/esp/light/build/bootloader-prefix"
-  "/Users/mirzashafi/esp/light/build/bootloader-prefix/tmp"
-  "/Users/mirzashafi/esp/light/build/bootloader-prefix/src/bootloader-stamp"
-  "/Users/mirzashafi/esp/light/build/bootloader-prefix/src"
-  "/Users/mirzashafi/esp/light/build/bootloader-prefix/src/bootloader-stamp"
+  "/Users/mirzashafi/esp/MotionLux_PIR/build/bootloader"
+  "/Users/mirzashafi/esp/MotionLux_PIR/build/bootloader-prefix"
+  "/Users/mirzashafi/esp/MotionLux_PIR/build/bootloader-prefix/tmp"
+  "/Users/mirzashafi/esp/MotionLux_PIR/build/bootloader-prefix/src/bootloader-stamp"
+  "/Users/mirzashafi/esp/MotionLux_PIR/build/bootloader-prefix/src"
+  "/Users/mirzashafi/esp/MotionLux_PIR/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/Users/mirzashafi/esp/light/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/Users/mirzashafi/esp/MotionLux_PIR/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/Users/mirzashafi/esp/light/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/Users/mirzashafi/esp/MotionLux_PIR/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

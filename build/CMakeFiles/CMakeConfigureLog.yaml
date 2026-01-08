@@ -36,8 +36,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/opt/homebrew/opt/flex/bin/"
@@ -72,8 +73,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/git"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/git"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/git"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/git"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/git"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/git"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/git"
     found: "/opt/homebrew/bin/git"
     search_context:
       ENV{PATH}:
@@ -90,8 +92,9 @@ events:
         - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin"
+        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools"
+        - "/Users/mirzashafi/.antigravity/antigravity/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/opt/homebrew/opt/flex/bin"
@@ -145,8 +148,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/opt/homebrew/opt/flex/bin/"
@@ -181,8 +185,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/uname"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/uname"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/uname"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/uname"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/uname"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/uname"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/uname"
       - "/opt/homebrew/bin/uname"
       - "/opt/homebrew/sbin/uname"
       - "/opt/homebrew/opt/flex/bin/uname"
@@ -210,8 +215,9 @@ events:
         - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin"
+        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools"
+        - "/Users/mirzashafi/.antigravity/antigravity/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/opt/homebrew/opt/flex/bin"
@@ -240,7 +246,7 @@ events:
       - "CMakeLists.txt:51 (project)"
     message: |
       The target system is: Generic -  - 
-      The host system is: Darwin - 25.1.0 - arm64
+      The host system is: Darwin - 25.2.0 - arm64
   -
     kind: "find-v1"
     backtrace:
@@ -276,8 +282,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/opt/homebrew/opt/flex/bin/"
@@ -331,8 +338,9 @@ events:
         - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin"
+        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools"
+        - "/Users/mirzashafi/.antigravity/antigravity/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/opt/homebrew/opt/flex/bin"
@@ -387,8 +395,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/opt/homebrew/opt/flex/bin/"
@@ -436,8 +445,9 @@ events:
         - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin"
+        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools"
+        - "/Users/mirzashafi/.antigravity/antigravity/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/opt/homebrew/opt/flex/bin"
@@ -501,8 +511,9 @@ events:
         - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin"
+        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools"
+        - "/Users/mirzashafi/.antigravity/antigravity/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/opt/homebrew/opt/flex/bin"
@@ -554,7 +565,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is GNU, found in:
-        /Users/mirzashafi/esp/light/build/CMakeFiles/4.1.2/CompilerIdC/a.out
+        /Users/mirzashafi/esp/MotionLux_PIR/build/CMakeFiles/4.1.2/CompilerIdC/a.out
       
   -
     kind: "find-v1"
@@ -591,8 +602,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/opt/homebrew/opt/flex/bin/"
@@ -629,8 +641,9 @@ events:
         - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin"
+        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools"
+        - "/Users/mirzashafi/.antigravity/antigravity/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/opt/homebrew/opt/flex/bin"
@@ -686,8 +699,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/opt/homebrew/opt/flex/bin/"
@@ -724,8 +738,9 @@ events:
         - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin"
+        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools"
+        - "/Users/mirzashafi/.antigravity/antigravity/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/opt/homebrew/opt/flex/bin"
@@ -781,8 +796,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/opt/homebrew/opt/flex/bin/"
@@ -819,8 +835,9 @@ events:
         - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin"
+        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools"
+        - "/Users/mirzashafi/.antigravity/antigravity/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/opt/homebrew/opt/flex/bin"
@@ -876,8 +893,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/opt/homebrew/opt/flex/bin/"
@@ -914,8 +932,9 @@ events:
         - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin"
+        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools"
+        - "/Users/mirzashafi/.antigravity/antigravity/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/opt/homebrew/opt/flex/bin"
@@ -971,8 +990,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/opt/homebrew/opt/flex/bin/"
@@ -1009,8 +1029,9 @@ events:
         - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin"
+        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools"
+        - "/Users/mirzashafi/.antigravity/antigravity/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/opt/homebrew/opt/flex/bin"
@@ -1066,8 +1087,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/opt/homebrew/opt/flex/bin/"
@@ -1104,8 +1126,9 @@ events:
         - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin"
+        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools"
+        - "/Users/mirzashafi/.antigravity/antigravity/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/opt/homebrew/opt/flex/bin"
@@ -1161,8 +1184,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/opt/homebrew/opt/flex/bin/"
@@ -1199,8 +1223,9 @@ events:
         - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin"
+        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools"
+        - "/Users/mirzashafi/.antigravity/antigravity/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/opt/homebrew/opt/flex/bin"
@@ -1256,8 +1281,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/opt/homebrew/opt/flex/bin/"
@@ -1294,8 +1320,9 @@ events:
         - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin"
+        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools"
+        - "/Users/mirzashafi/.antigravity/antigravity/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/opt/homebrew/opt/flex/bin"
@@ -1351,8 +1378,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/opt/homebrew/opt/flex/bin/"
@@ -1387,8 +1415,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/riscv32-esp-elf-dlltool"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/riscv32-esp-elf-dlltool"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/riscv32-esp-elf-dlltool"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/riscv32-esp-elf-dlltool"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/riscv32-esp-elf-dlltool"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/riscv32-esp-elf-dlltool"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/riscv32-esp-elf-dlltool"
       - "/opt/homebrew/bin/riscv32-esp-elf-dlltool"
       - "/opt/homebrew/sbin/riscv32-esp-elf-dlltool"
       - "/opt/homebrew/opt/flex/bin/riscv32-esp-elf-dlltool"
@@ -1422,8 +1451,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/dlltool"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/dlltool"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/dlltool"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/dlltool"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/dlltool"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/dlltool"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/dlltool"
       - "/opt/homebrew/bin/dlltool"
       - "/opt/homebrew/sbin/dlltool"
       - "/opt/homebrew/opt/flex/bin/dlltool"
@@ -1460,8 +1490,9 @@ events:
         - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin"
+        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools"
+        - "/Users/mirzashafi/.antigravity/antigravity/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/opt/homebrew/opt/flex/bin"
@@ -1517,8 +1548,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/opt/homebrew/opt/flex/bin/"
@@ -1555,8 +1587,9 @@ events:
         - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin"
+        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools"
+        - "/Users/mirzashafi/.antigravity/antigravity/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/opt/homebrew/opt/flex/bin"
@@ -1612,8 +1645,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/opt/homebrew/opt/flex/bin/"
@@ -1648,8 +1682,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/riscv32-esp-elf-tapi"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/riscv32-esp-elf-tapi"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/riscv32-esp-elf-tapi"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/riscv32-esp-elf-tapi"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/riscv32-esp-elf-tapi"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/riscv32-esp-elf-tapi"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/riscv32-esp-elf-tapi"
       - "/opt/homebrew/bin/riscv32-esp-elf-tapi"
       - "/opt/homebrew/sbin/riscv32-esp-elf-tapi"
       - "/opt/homebrew/opt/flex/bin/riscv32-esp-elf-tapi"
@@ -1683,8 +1718,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/tapi"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/tapi"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/tapi"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/tapi"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/tapi"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/tapi"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/tapi"
       - "/opt/homebrew/bin/tapi"
       - "/opt/homebrew/sbin/tapi"
       - "/opt/homebrew/opt/flex/bin/tapi"
@@ -1721,8 +1757,9 @@ events:
         - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin"
+        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools"
+        - "/Users/mirzashafi/.antigravity/antigravity/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/opt/homebrew/opt/flex/bin"
@@ -1780,8 +1817,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/opt/homebrew/opt/flex/bin/"
@@ -1816,8 +1854,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/riscv32-esp-elf-gcc-ar-14.2"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/riscv32-esp-elf-gcc-ar-14.2"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/riscv32-esp-elf-gcc-ar-14.2"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/riscv32-esp-elf-gcc-ar-14.2"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/riscv32-esp-elf-gcc-ar-14.2"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/riscv32-esp-elf-gcc-ar-14.2"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/riscv32-esp-elf-gcc-ar-14.2"
       - "/opt/homebrew/bin/riscv32-esp-elf-gcc-ar-14.2"
       - "/opt/homebrew/sbin/riscv32-esp-elf-gcc-ar-14.2"
       - "/opt/homebrew/opt/flex/bin/riscv32-esp-elf-gcc-ar-14.2"
@@ -1851,8 +1890,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/riscv32-esp-elf-gcc-ar-14"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/riscv32-esp-elf-gcc-ar-14"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/riscv32-esp-elf-gcc-ar-14"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/riscv32-esp-elf-gcc-ar-14"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/riscv32-esp-elf-gcc-ar-14"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/riscv32-esp-elf-gcc-ar-14"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/riscv32-esp-elf-gcc-ar-14"
       - "/opt/homebrew/bin/riscv32-esp-elf-gcc-ar-14"
       - "/opt/homebrew/sbin/riscv32-esp-elf-gcc-ar-14"
       - "/opt/homebrew/opt/flex/bin/riscv32-esp-elf-gcc-ar-14"
@@ -1886,8 +1926,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/riscv32-esp-elf-gcc-ar14"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/riscv32-esp-elf-gcc-ar14"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/riscv32-esp-elf-gcc-ar14"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/riscv32-esp-elf-gcc-ar14"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/riscv32-esp-elf-gcc-ar14"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/riscv32-esp-elf-gcc-ar14"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/riscv32-esp-elf-gcc-ar14"
       - "/opt/homebrew/bin/riscv32-esp-elf-gcc-ar14"
       - "/opt/homebrew/sbin/riscv32-esp-elf-gcc-ar14"
       - "/opt/homebrew/opt/flex/bin/riscv32-esp-elf-gcc-ar14"
@@ -1924,8 +1965,9 @@ events:
         - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin"
+        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools"
+        - "/Users/mirzashafi/.antigravity/antigravity/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/opt/homebrew/opt/flex/bin"
@@ -1983,8 +2025,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/opt/homebrew/opt/flex/bin/"
@@ -2019,8 +2062,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/riscv32-esp-elf-gcc-ranlib-14.2"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/riscv32-esp-elf-gcc-ranlib-14.2"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/riscv32-esp-elf-gcc-ranlib-14.2"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/riscv32-esp-elf-gcc-ranlib-14.2"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/riscv32-esp-elf-gcc-ranlib-14.2"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/riscv32-esp-elf-gcc-ranlib-14.2"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/riscv32-esp-elf-gcc-ranlib-14.2"
       - "/opt/homebrew/bin/riscv32-esp-elf-gcc-ranlib-14.2"
       - "/opt/homebrew/sbin/riscv32-esp-elf-gcc-ranlib-14.2"
       - "/opt/homebrew/opt/flex/bin/riscv32-esp-elf-gcc-ranlib-14.2"
@@ -2054,8 +2098,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/riscv32-esp-elf-gcc-ranlib-14"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/riscv32-esp-elf-gcc-ranlib-14"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/riscv32-esp-elf-gcc-ranlib-14"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/riscv32-esp-elf-gcc-ranlib-14"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/riscv32-esp-elf-gcc-ranlib-14"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/riscv32-esp-elf-gcc-ranlib-14"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/riscv32-esp-elf-gcc-ranlib-14"
       - "/opt/homebrew/bin/riscv32-esp-elf-gcc-ranlib-14"
       - "/opt/homebrew/sbin/riscv32-esp-elf-gcc-ranlib-14"
       - "/opt/homebrew/opt/flex/bin/riscv32-esp-elf-gcc-ranlib-14"
@@ -2089,8 +2134,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/riscv32-esp-elf-gcc-ranlib14"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/riscv32-esp-elf-gcc-ranlib14"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/riscv32-esp-elf-gcc-ranlib14"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/riscv32-esp-elf-gcc-ranlib14"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/riscv32-esp-elf-gcc-ranlib14"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/riscv32-esp-elf-gcc-ranlib14"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/riscv32-esp-elf-gcc-ranlib14"
       - "/opt/homebrew/bin/riscv32-esp-elf-gcc-ranlib14"
       - "/opt/homebrew/sbin/riscv32-esp-elf-gcc-ranlib14"
       - "/opt/homebrew/opt/flex/bin/riscv32-esp-elf-gcc-ranlib14"
@@ -2127,8 +2173,9 @@ events:
         - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin"
+        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools"
+        - "/Users/mirzashafi/.antigravity/antigravity/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/opt/homebrew/opt/flex/bin"
@@ -2183,8 +2230,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/opt/homebrew/opt/flex/bin/"
@@ -2232,8 +2280,9 @@ events:
         - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin"
+        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools"
+        - "/Users/mirzashafi/.antigravity/antigravity/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/opt/homebrew/opt/flex/bin"
@@ -2297,8 +2346,9 @@ events:
         - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin"
+        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools"
+        - "/Users/mirzashafi/.antigravity/antigravity/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/opt/homebrew/opt/flex/bin"
@@ -2350,7 +2400,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is GNU, found in:
-        /Users/mirzashafi/esp/light/build/CMakeFiles/4.1.2/CompilerIdCXX/a.out
+        /Users/mirzashafi/esp/MotionLux_PIR/build/CMakeFiles/4.1.2/CompilerIdCXX/a.out
       
   -
     kind: "find-v1"
@@ -2389,8 +2439,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/opt/homebrew/opt/flex/bin/"
@@ -2425,8 +2476,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/riscv32-esp-elf-gcc-ar-14.2"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/riscv32-esp-elf-gcc-ar-14.2"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/riscv32-esp-elf-gcc-ar-14.2"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/riscv32-esp-elf-gcc-ar-14.2"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/riscv32-esp-elf-gcc-ar-14.2"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/riscv32-esp-elf-gcc-ar-14.2"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/riscv32-esp-elf-gcc-ar-14.2"
       - "/opt/homebrew/bin/riscv32-esp-elf-gcc-ar-14.2"
       - "/opt/homebrew/sbin/riscv32-esp-elf-gcc-ar-14.2"
       - "/opt/homebrew/opt/flex/bin/riscv32-esp-elf-gcc-ar-14.2"
@@ -2460,8 +2512,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/riscv32-esp-elf-gcc-ar-14"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/riscv32-esp-elf-gcc-ar-14"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/riscv32-esp-elf-gcc-ar-14"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/riscv32-esp-elf-gcc-ar-14"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/riscv32-esp-elf-gcc-ar-14"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/riscv32-esp-elf-gcc-ar-14"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/riscv32-esp-elf-gcc-ar-14"
       - "/opt/homebrew/bin/riscv32-esp-elf-gcc-ar-14"
       - "/opt/homebrew/sbin/riscv32-esp-elf-gcc-ar-14"
       - "/opt/homebrew/opt/flex/bin/riscv32-esp-elf-gcc-ar-14"
@@ -2495,8 +2548,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/riscv32-esp-elf-gcc-ar14"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/riscv32-esp-elf-gcc-ar14"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/riscv32-esp-elf-gcc-ar14"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/riscv32-esp-elf-gcc-ar14"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/riscv32-esp-elf-gcc-ar14"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/riscv32-esp-elf-gcc-ar14"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/riscv32-esp-elf-gcc-ar14"
       - "/opt/homebrew/bin/riscv32-esp-elf-gcc-ar14"
       - "/opt/homebrew/sbin/riscv32-esp-elf-gcc-ar14"
       - "/opt/homebrew/opt/flex/bin/riscv32-esp-elf-gcc-ar14"
@@ -2533,8 +2587,9 @@ events:
         - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin"
+        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools"
+        - "/Users/mirzashafi/.antigravity/antigravity/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/opt/homebrew/opt/flex/bin"
@@ -2592,8 +2647,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/opt/homebrew/opt/flex/bin/"
@@ -2628,8 +2684,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/riscv32-esp-elf-gcc-ranlib-14.2"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/riscv32-esp-elf-gcc-ranlib-14.2"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/riscv32-esp-elf-gcc-ranlib-14.2"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/riscv32-esp-elf-gcc-ranlib-14.2"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/riscv32-esp-elf-gcc-ranlib-14.2"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/riscv32-esp-elf-gcc-ranlib-14.2"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/riscv32-esp-elf-gcc-ranlib-14.2"
       - "/opt/homebrew/bin/riscv32-esp-elf-gcc-ranlib-14.2"
       - "/opt/homebrew/sbin/riscv32-esp-elf-gcc-ranlib-14.2"
       - "/opt/homebrew/opt/flex/bin/riscv32-esp-elf-gcc-ranlib-14.2"
@@ -2663,8 +2720,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/riscv32-esp-elf-gcc-ranlib-14"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/riscv32-esp-elf-gcc-ranlib-14"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/riscv32-esp-elf-gcc-ranlib-14"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/riscv32-esp-elf-gcc-ranlib-14"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/riscv32-esp-elf-gcc-ranlib-14"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/riscv32-esp-elf-gcc-ranlib-14"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/riscv32-esp-elf-gcc-ranlib-14"
       - "/opt/homebrew/bin/riscv32-esp-elf-gcc-ranlib-14"
       - "/opt/homebrew/sbin/riscv32-esp-elf-gcc-ranlib-14"
       - "/opt/homebrew/opt/flex/bin/riscv32-esp-elf-gcc-ranlib-14"
@@ -2698,8 +2756,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/riscv32-esp-elf-gcc-ranlib14"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/riscv32-esp-elf-gcc-ranlib14"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/riscv32-esp-elf-gcc-ranlib14"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/riscv32-esp-elf-gcc-ranlib14"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/riscv32-esp-elf-gcc-ranlib14"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/riscv32-esp-elf-gcc-ranlib14"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/riscv32-esp-elf-gcc-ranlib14"
       - "/opt/homebrew/bin/riscv32-esp-elf-gcc-ranlib14"
       - "/opt/homebrew/sbin/riscv32-esp-elf-gcc-ranlib14"
       - "/opt/homebrew/opt/flex/bin/riscv32-esp-elf-gcc-ranlib14"
@@ -2736,8 +2795,9 @@ events:
         - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin"
+        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools"
+        - "/Users/mirzashafi/.antigravity/antigravity/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/opt/homebrew/opt/flex/bin"
@@ -2792,8 +2852,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/opt/homebrew/opt/flex/bin/"
@@ -2841,8 +2902,9 @@ events:
         - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin"
+        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools"
+        - "/Users/mirzashafi/.antigravity/antigravity/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/opt/homebrew/opt/flex/bin"
@@ -2914,8 +2976,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/opt/homebrew/opt/flex/bin/"
@@ -2950,8 +3013,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/riscv32-esp-elf-gcc-ar-"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/riscv32-esp-elf-gcc-ar-"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/riscv32-esp-elf-gcc-ar-"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/riscv32-esp-elf-gcc-ar-"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/riscv32-esp-elf-gcc-ar-"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/riscv32-esp-elf-gcc-ar-"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/riscv32-esp-elf-gcc-ar-"
       - "/opt/homebrew/bin/riscv32-esp-elf-gcc-ar-"
       - "/opt/homebrew/sbin/riscv32-esp-elf-gcc-ar-"
       - "/opt/homebrew/opt/flex/bin/riscv32-esp-elf-gcc-ar-"
@@ -2985,8 +3049,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/riscv32-esp-elf-gcc-ar-"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/riscv32-esp-elf-gcc-ar-"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/riscv32-esp-elf-gcc-ar-"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/riscv32-esp-elf-gcc-ar-"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/riscv32-esp-elf-gcc-ar-"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/riscv32-esp-elf-gcc-ar-"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/riscv32-esp-elf-gcc-ar-"
       - "/opt/homebrew/bin/riscv32-esp-elf-gcc-ar-"
       - "/opt/homebrew/sbin/riscv32-esp-elf-gcc-ar-"
       - "/opt/homebrew/opt/flex/bin/riscv32-esp-elf-gcc-ar-"
@@ -3023,8 +3088,9 @@ events:
         - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin"
+        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools"
+        - "/Users/mirzashafi/.antigravity/antigravity/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/opt/homebrew/opt/flex/bin"
@@ -3082,8 +3148,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/opt/homebrew/opt/flex/bin/"
@@ -3118,8 +3185,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/riscv32-esp-elf-gcc-ranlib-"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/riscv32-esp-elf-gcc-ranlib-"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/riscv32-esp-elf-gcc-ranlib-"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/riscv32-esp-elf-gcc-ranlib-"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/riscv32-esp-elf-gcc-ranlib-"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/riscv32-esp-elf-gcc-ranlib-"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/riscv32-esp-elf-gcc-ranlib-"
       - "/opt/homebrew/bin/riscv32-esp-elf-gcc-ranlib-"
       - "/opt/homebrew/sbin/riscv32-esp-elf-gcc-ranlib-"
       - "/opt/homebrew/opt/flex/bin/riscv32-esp-elf-gcc-ranlib-"
@@ -3153,8 +3221,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/riscv32-esp-elf-gcc-ranlib-"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/riscv32-esp-elf-gcc-ranlib-"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/riscv32-esp-elf-gcc-ranlib-"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/riscv32-esp-elf-gcc-ranlib-"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/riscv32-esp-elf-gcc-ranlib-"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/riscv32-esp-elf-gcc-ranlib-"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/riscv32-esp-elf-gcc-ranlib-"
       - "/opt/homebrew/bin/riscv32-esp-elf-gcc-ranlib-"
       - "/opt/homebrew/sbin/riscv32-esp-elf-gcc-ranlib-"
       - "/opt/homebrew/opt/flex/bin/riscv32-esp-elf-gcc-ranlib-"
@@ -3191,8 +3260,9 @@ events:
         - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin"
+        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools"
+        - "/Users/mirzashafi/.antigravity/antigravity/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/opt/homebrew/opt/flex/bin"
@@ -3223,8 +3293,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/mirzashafi/esp/light/build/CMakeFiles/CMakeScratch/TryCompile-hctn77"
-      binary: "/Users/mirzashafi/esp/light/build/CMakeFiles/CMakeScratch/TryCompile-hctn77"
+      source: "/Users/mirzashafi/esp/MotionLux_PIR/build/CMakeFiles/CMakeScratch/TryCompile-NqrXZC"
+      binary: "/Users/mirzashafi/esp/MotionLux_PIR/build/CMakeFiles/CMakeScratch/TryCompile-NqrXZC"
     cmakeVariables:
       CMAKE_C_FLAGS: "-march=rv32imc_zicsr_zifencei "
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -3234,10 +3304,10 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/mirzashafi/esp/light/build/CMakeFiles/CMakeScratch/TryCompile-hctn77'
+        Change Dir: '/Users/mirzashafi/esp/MotionLux_PIR/build/CMakeFiles/CMakeScratch/TryCompile-NqrXZC'
         
-        Run Build Command(s): /Users/mirzashafi/esp/esp-matter/connectedhomeip/connectedhomeip/.environment/cipd/packages/pigweed/ninja -v cmTC_712ad
-        [1/2] /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-gcc   -march=rv32imc_zicsr_zifencei     -v -o CMakeFiles/cmTC_712ad.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /Users/mirzashafi/esp/esp-matter/connectedhomeip/connectedhomeip/.environment/cipd/packages/pigweed/ninja -v cmTC_4398f
+        [1/2] /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-gcc   -march=rv32imc_zicsr_zifencei     -v -o CMakeFiles/cmTC_4398f.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-gcc
         Target: riscv32-esp-elf
@@ -3245,8 +3315,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) 
-        COLLECT_GCC_OPTIONS='-march=rv32imc_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_712ad.dir/CMakeCCompilerABI.c.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_712ad.dir/'
-         /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/cc1 -quiet -v -imultilib rv32imc_zicsr_zifencei/ilp32 -iprefix /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/ -isysroot /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_712ad.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=rv32imc_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -march=rv32imc_zicsr_zifencei -version -o /var/folders/l3/ql4b4y593n5fwxdhl2k094pc0000gn/T//ccmj5YVQ.s
+        COLLECT_GCC_OPTIONS='-march=rv32imc_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_4398f.dir/CMakeCCompilerABI.c.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_4398f.dir/'
+         /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/cc1 -quiet -v -imultilib rv32imc_zicsr_zifencei/ilp32 -iprefix /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/ -isysroot /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_4398f.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=rv32imc_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -march=rv32imc_zicsr_zifencei -version -o /var/folders/l3/ql4b4y593n5fwxdhl2k094pc0000gn/T//ccNydhi6.s
         GNU C17 (crosstool-NG esp-14.2.0_20241119) version 14.2.0 (riscv32-esp-elf)
         	compiled by GNU C version Debian Clang 11.0.1, GMP version 6.2.1, MPFR version 4.2.1, MPC version 1.2.1, isl version isl-0.26-GMP
         
@@ -3263,13 +3333,13 @@ events:
          /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/include
         End of search list.
         Compiler executable checksum: 355c689fdbec0c7ff41056f2865da6bc
-        COLLECT_GCC_OPTIONS='-march=rv32imc_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_712ad.dir/CMakeCCompilerABI.c.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_712ad.dir/'
-         /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/as -v --traditional-format -march=rv32imc_zicsr_zifencei -march=rv32imc_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -o CMakeFiles/cmTC_712ad.dir/CMakeCCompilerABI.c.obj /var/folders/l3/ql4b4y593n5fwxdhl2k094pc0000gn/T//ccmj5YVQ.s
+        COLLECT_GCC_OPTIONS='-march=rv32imc_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_4398f.dir/CMakeCCompilerABI.c.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_4398f.dir/'
+         /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/as -v --traditional-format -march=rv32imc_zicsr_zifencei -march=rv32imc_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -o CMakeFiles/cmTC_4398f.dir/CMakeCCompilerABI.c.obj /var/folders/l3/ql4b4y593n5fwxdhl2k094pc0000gn/T//ccNydhi6.s
         GNU assembler version 2.43.1 (riscv32-esp-elf) using BFD version (crosstool-NG esp-14.2.0_20241119) 2.43.1
         COMPILER_PATH=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/
         LIBRARY_PATH=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imc_zicsr_zifencei/ilp32/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-march=rv32imc_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_712ad.dir/CMakeCCompilerABI.c.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_712ad.dir/CMakeCCompilerABI.c.'
-        [2/2] : && /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-gcc -march=rv32imc_zicsr_zifencei -nostartfiles -march=rv32imc_zicsr_zifencei  -v CMakeFiles/cmTC_712ad.dir/CMakeCCompilerABI.c.obj -o cmTC_712ad   && :
+        COLLECT_GCC_OPTIONS='-march=rv32imc_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_4398f.dir/CMakeCCompilerABI.c.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_4398f.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-gcc -march=rv32imc_zicsr_zifencei -nostartfiles -march=rv32imc_zicsr_zifencei  -v CMakeFiles/cmTC_4398f.dir/CMakeCCompilerABI.c.obj -o cmTC_4398f   && :
         Using built-in specs.
         COLLECT_GCC=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-gcc
         COLLECT_LTO_WRAPPER=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/lto-wrapper
@@ -3280,10 +3350,10 @@ events:
         gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) 
         COMPILER_PATH=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/
         LIBRARY_PATH=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imc_zicsr_zifencei/ilp32/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-nostartfiles' '-march=rv32imc_zicsr_zifencei' '-v' '-o' 'cmTC_712ad' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'cmTC_712ad.'
-         /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/collect2 -plugin /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/l3/ql4b4y593n5fwxdhl2k094pc0000gn/T//ccvwlINl.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf -melf32lriscv -X -o cmTC_712ad -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imc_zicsr_zifencei/ilp32 -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32 -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32 -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0 -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/usr/lib CMakeFiles/cmTC_712ad.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc
+        COLLECT_GCC_OPTIONS='-nostartfiles' '-march=rv32imc_zicsr_zifencei' '-v' '-o' 'cmTC_4398f' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'cmTC_4398f.'
+         /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/collect2 -plugin /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/l3/ql4b4y593n5fwxdhl2k094pc0000gn/T//cciPS1OA.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf -melf32lriscv -X -o cmTC_4398f -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imc_zicsr_zifencei/ilp32 -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32 -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32 -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0 -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/usr/lib CMakeFiles/cmTC_4398f.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc
         /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 000100b4
-        COLLECT_GCC_OPTIONS='-nostartfiles' '-march=rv32imc_zicsr_zifencei' '-v' '-o' 'cmTC_712ad' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'cmTC_712ad.'
+        COLLECT_GCC_OPTIONS='-nostartfiles' '-march=rv32imc_zicsr_zifencei' '-v' '-o' 'cmTC_4398f' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'cmTC_4398f.'
         
       exitCode: 0
   -
@@ -3318,10 +3388,10 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/mirzashafi/esp/light/build/CMakeFiles/CMakeScratch/TryCompile-hctn77']
+        ignore line: [Change Dir: '/Users/mirzashafi/esp/MotionLux_PIR/build/CMakeFiles/CMakeScratch/TryCompile-NqrXZC']
         ignore line: []
-        ignore line: [Run Build Command(s): /Users/mirzashafi/esp/esp-matter/connectedhomeip/connectedhomeip/.environment/cipd/packages/pigweed/ninja -v cmTC_712ad]
-        ignore line: [[1/2] /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-gcc   -march=rv32imc_zicsr_zifencei     -v -o CMakeFiles/cmTC_712ad.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /Users/mirzashafi/esp/esp-matter/connectedhomeip/connectedhomeip/.environment/cipd/packages/pigweed/ninja -v cmTC_4398f]
+        ignore line: [[1/2] /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-gcc   -march=rv32imc_zicsr_zifencei     -v -o CMakeFiles/cmTC_4398f.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-gcc]
         ignore line: [Target: riscv32-esp-elf]
@@ -3329,8 +3399,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-march=rv32imc_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_712ad.dir/CMakeCCompilerABI.c.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_712ad.dir/']
-        ignore line: [ /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/cc1 -quiet -v -imultilib rv32imc_zicsr_zifencei/ilp32 -iprefix /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/ -isysroot /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_712ad.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=rv32imc_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -march=rv32imc_zicsr_zifencei -version -o /var/folders/l3/ql4b4y593n5fwxdhl2k094pc0000gn/T//ccmj5YVQ.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=rv32imc_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_4398f.dir/CMakeCCompilerABI.c.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_4398f.dir/']
+        ignore line: [ /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/cc1 -quiet -v -imultilib rv32imc_zicsr_zifencei/ilp32 -iprefix /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/ -isysroot /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_4398f.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=rv32imc_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -march=rv32imc_zicsr_zifencei -version -o /var/folders/l3/ql4b4y593n5fwxdhl2k094pc0000gn/T//ccNydhi6.s]
         ignore line: [GNU C17 (crosstool-NG esp-14.2.0_20241119) version 14.2.0 (riscv32-esp-elf)]
         ignore line: [	compiled by GNU C version Debian Clang 11.0.1  GMP version 6.2.1  MPFR version 4.2.1  MPC version 1.2.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -3347,13 +3417,13 @@ events:
         ignore line: [ /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 355c689fdbec0c7ff41056f2865da6bc]
-        ignore line: [COLLECT_GCC_OPTIONS='-march=rv32imc_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_712ad.dir/CMakeCCompilerABI.c.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_712ad.dir/']
-        ignore line: [ /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/as -v --traditional-format -march=rv32imc_zicsr_zifencei -march=rv32imc_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -o CMakeFiles/cmTC_712ad.dir/CMakeCCompilerABI.c.obj /var/folders/l3/ql4b4y593n5fwxdhl2k094pc0000gn/T//ccmj5YVQ.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=rv32imc_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_4398f.dir/CMakeCCompilerABI.c.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_4398f.dir/']
+        ignore line: [ /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/as -v --traditional-format -march=rv32imc_zicsr_zifencei -march=rv32imc_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -o CMakeFiles/cmTC_4398f.dir/CMakeCCompilerABI.c.obj /var/folders/l3/ql4b4y593n5fwxdhl2k094pc0000gn/T//ccNydhi6.s]
         ignore line: [GNU assembler version 2.43.1 (riscv32-esp-elf) using BFD version (crosstool-NG esp-14.2.0_20241119) 2.43.1]
         ignore line: [COMPILER_PATH=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/]
         ignore line: [LIBRARY_PATH=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imc_zicsr_zifencei/ilp32/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-march=rv32imc_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_712ad.dir/CMakeCCompilerABI.c.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_712ad.dir/CMakeCCompilerABI.c.']
-        ignore line: [[2/2] : && /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-gcc -march=rv32imc_zicsr_zifencei -nostartfiles -march=rv32imc_zicsr_zifencei  -v CMakeFiles/cmTC_712ad.dir/CMakeCCompilerABI.c.obj -o cmTC_712ad   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=rv32imc_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_4398f.dir/CMakeCCompilerABI.c.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_4398f.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-gcc -march=rv32imc_zicsr_zifencei -nostartfiles -march=rv32imc_zicsr_zifencei  -v CMakeFiles/cmTC_4398f.dir/CMakeCCompilerABI.c.obj -o cmTC_4398f   && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-gcc]
         ignore line: [COLLECT_LTO_WRAPPER=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/lto-wrapper]
@@ -3364,13 +3434,13 @@ events:
         ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) ]
         ignore line: [COMPILER_PATH=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/]
         ignore line: [LIBRARY_PATH=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imc_zicsr_zifencei/ilp32/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-nostartfiles' '-march=rv32imc_zicsr_zifencei' '-v' '-o' 'cmTC_712ad' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'cmTC_712ad.']
-        link line: [ /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/collect2 -plugin /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/l3/ql4b4y593n5fwxdhl2k094pc0000gn/T//ccvwlINl.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf -melf32lriscv -X -o cmTC_712ad -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imc_zicsr_zifencei/ilp32 -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32 -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32 -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0 -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/usr/lib CMakeFiles/cmTC_712ad.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc]
+        ignore line: [COLLECT_GCC_OPTIONS='-nostartfiles' '-march=rv32imc_zicsr_zifencei' '-v' '-o' 'cmTC_4398f' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'cmTC_4398f.']
+        link line: [ /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/collect2 -plugin /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/l3/ql4b4y593n5fwxdhl2k094pc0000gn/T//cciPS1OA.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf -melf32lriscv -X -o cmTC_4398f -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imc_zicsr_zifencei/ilp32 -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32 -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32 -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0 -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/usr/lib CMakeFiles/cmTC_4398f.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc]
           arg [/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/var/folders/l3/ql4b4y593n5fwxdhl2k094pc0000gn/T//ccvwlINl.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/var/folders/l3/ql4b4y593n5fwxdhl2k094pc0000gn/T//cciPS1OA.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
           arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
@@ -3380,7 +3450,7 @@ events:
           arg [-melf32lriscv] ==> ignore
           arg [-X] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_712ad] ==> ignore
+          arg [cmTC_4398f] ==> ignore
           arg [-L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imc_zicsr_zifencei/ilp32] ==> dir [/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imc_zicsr_zifencei/ilp32]
           arg [-L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32] ==> dir [/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32]
           arg [-L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32] ==> dir [/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32]
@@ -3389,7 +3459,7 @@ events:
           arg [-L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib] ==> dir [/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib]
           arg [-L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib] ==> dir [/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib]
           arg [-L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/usr/lib] ==> dir [/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/usr/lib]
-          arg [CMakeFiles/cmTC_712ad.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [CMakeFiles/cmTC_4398f.dir/CMakeCCompilerABI.c.obj] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [-lc] ==> lib [c]
           arg [-lnosys] ==> lib [nosys]
@@ -3397,7 +3467,7 @@ events:
           arg [-lgcc] ==> lib [gcc]
         ignore line: [/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/ld: warning: cannot find entry symbol _start]
         ignore line: [ defaulting to 000100b4]
-        ignore line: [COLLECT_GCC_OPTIONS='-nostartfiles' '-march=rv32imc_zicsr_zifencei' '-v' '-o' 'cmTC_712ad' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'cmTC_712ad.']
+        ignore line: [COLLECT_GCC_OPTIONS='-nostartfiles' '-march=rv32imc_zicsr_zifencei' '-v' '-o' 'cmTC_4398f' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'cmTC_4398f.']
         ignore line: []
         ignore line: []
         collapse library dir [/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imc_zicsr_zifencei/ilp32] ==> [/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/14.2.0/rv32imc_zicsr_zifencei/ilp32]
@@ -3424,8 +3494,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/mirzashafi/esp/light/build/CMakeFiles/CMakeScratch/TryCompile-98scRr"
-      binary: "/Users/mirzashafi/esp/light/build/CMakeFiles/CMakeScratch/TryCompile-98scRr"
+      source: "/Users/mirzashafi/esp/MotionLux_PIR/build/CMakeFiles/CMakeScratch/TryCompile-rs08UH"
+      binary: "/Users/mirzashafi/esp/MotionLux_PIR/build/CMakeFiles/CMakeScratch/TryCompile-rs08UH"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-march=rv32imc_zicsr_zifencei "
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -3436,10 +3506,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/mirzashafi/esp/light/build/CMakeFiles/CMakeScratch/TryCompile-98scRr'
+        Change Dir: '/Users/mirzashafi/esp/MotionLux_PIR/build/CMakeFiles/CMakeScratch/TryCompile-rs08UH'
         
-        Run Build Command(s): /Users/mirzashafi/esp/esp-matter/connectedhomeip/connectedhomeip/.environment/cipd/packages/pigweed/ninja -v cmTC_d4567
-        [1/2] /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-g++   -march=rv32imc_zicsr_zifencei     -v -o CMakeFiles/cmTC_d4567.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /Users/mirzashafi/esp/esp-matter/connectedhomeip/connectedhomeip/.environment/cipd/packages/pigweed/ninja -v cmTC_1040d
+        [1/2] /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-g++   -march=rv32imc_zicsr_zifencei     -v -o CMakeFiles/cmTC_1040d.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-g++
         Target: riscv32-esp-elf
@@ -3447,8 +3517,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) 
-        COLLECT_GCC_OPTIONS='-march=rv32imc_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_d4567.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_d4567.dir/'
-         /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/cc1plus -quiet -v -imultilib rv32imc_zicsr_zifencei/ilp32 -iprefix /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/ -isysroot /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d4567.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=rv32imc_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -march=rv32imc_zicsr_zifencei -version -o /var/folders/l3/ql4b4y593n5fwxdhl2k094pc0000gn/T//ccVm3Akn.s
+        COLLECT_GCC_OPTIONS='-march=rv32imc_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_1040d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_1040d.dir/'
+         /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/cc1plus -quiet -v -imultilib rv32imc_zicsr_zifencei/ilp32 -iprefix /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/ -isysroot /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_1040d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=rv32imc_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -march=rv32imc_zicsr_zifencei -version -o /var/folders/l3/ql4b4y593n5fwxdhl2k094pc0000gn/T//ccBmxMnt.s
         GNU C++17 (crosstool-NG esp-14.2.0_20241119) version 14.2.0 (riscv32-esp-elf)
         	compiled by GNU C version Debian Clang 11.0.1, GMP version 6.2.1, MPFR version 4.2.1, MPC version 1.2.1, isl version isl-0.26-GMP
         
@@ -3471,13 +3541,13 @@ events:
          /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/include
         End of search list.
         Compiler executable checksum: 6e49372a1109dc465056ef40790c161d
-        COLLECT_GCC_OPTIONS='-march=rv32imc_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_d4567.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_d4567.dir/'
-         /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/as -v --traditional-format -march=rv32imc_zicsr_zifencei -march=rv32imc_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -o CMakeFiles/cmTC_d4567.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/l3/ql4b4y593n5fwxdhl2k094pc0000gn/T//ccVm3Akn.s
+        COLLECT_GCC_OPTIONS='-march=rv32imc_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_1040d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_1040d.dir/'
+         /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/as -v --traditional-format -march=rv32imc_zicsr_zifencei -march=rv32imc_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -o CMakeFiles/cmTC_1040d.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/l3/ql4b4y593n5fwxdhl2k094pc0000gn/T//ccBmxMnt.s
         GNU assembler version 2.43.1 (riscv32-esp-elf) using BFD version (crosstool-NG esp-14.2.0_20241119) 2.43.1
         COMPILER_PATH=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/
         LIBRARY_PATH=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imc_zicsr_zifencei/ilp32/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-march=rv32imc_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_d4567.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_d4567.dir/CMakeCXXCompilerABI.cpp.'
-        [2/2] : && /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-g++ -march=rv32imc_zicsr_zifencei -nostartfiles -march=rv32imc_zicsr_zifencei  -v CMakeFiles/cmTC_d4567.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_d4567   && :
+        COLLECT_GCC_OPTIONS='-march=rv32imc_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_1040d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_1040d.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-g++ -march=rv32imc_zicsr_zifencei -nostartfiles -march=rv32imc_zicsr_zifencei  -v CMakeFiles/cmTC_1040d.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_1040d   && :
         Using built-in specs.
         COLLECT_GCC=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-g++
         COLLECT_LTO_WRAPPER=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/lto-wrapper
@@ -3488,10 +3558,10 @@ events:
         gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) 
         COMPILER_PATH=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/
         LIBRARY_PATH=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imc_zicsr_zifencei/ilp32/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-nostartfiles' '-march=rv32imc_zicsr_zifencei' '-v' '-o' 'cmTC_d4567' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'cmTC_d4567.'
-         /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/collect2 -plugin /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/l3/ql4b4y593n5fwxdhl2k094pc0000gn/T//cco2bHrt.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf -melf32lriscv -X -o cmTC_d4567 -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imc_zicsr_zifencei/ilp32 -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32 -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32 -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0 -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/usr/lib CMakeFiles/cmTC_d4567.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc
+        COLLECT_GCC_OPTIONS='-nostartfiles' '-march=rv32imc_zicsr_zifencei' '-v' '-o' 'cmTC_1040d' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'cmTC_1040d.'
+         /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/collect2 -plugin /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/l3/ql4b4y593n5fwxdhl2k094pc0000gn/T//ccnvVWRj.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf -melf32lriscv -X -o cmTC_1040d -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imc_zicsr_zifencei/ilp32 -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32 -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32 -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0 -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/usr/lib CMakeFiles/cmTC_1040d.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc
         /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 000100b4
-        COLLECT_GCC_OPTIONS='-nostartfiles' '-march=rv32imc_zicsr_zifencei' '-v' '-o' 'cmTC_d4567' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'cmTC_d4567.'
+        COLLECT_GCC_OPTIONS='-nostartfiles' '-march=rv32imc_zicsr_zifencei' '-v' '-o' 'cmTC_1040d' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'cmTC_1040d.'
         
       exitCode: 0
   -
@@ -3532,10 +3602,10 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/mirzashafi/esp/light/build/CMakeFiles/CMakeScratch/TryCompile-98scRr']
+        ignore line: [Change Dir: '/Users/mirzashafi/esp/MotionLux_PIR/build/CMakeFiles/CMakeScratch/TryCompile-rs08UH']
         ignore line: []
-        ignore line: [Run Build Command(s): /Users/mirzashafi/esp/esp-matter/connectedhomeip/connectedhomeip/.environment/cipd/packages/pigweed/ninja -v cmTC_d4567]
-        ignore line: [[1/2] /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-g++   -march=rv32imc_zicsr_zifencei     -v -o CMakeFiles/cmTC_d4567.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /Users/mirzashafi/esp/esp-matter/connectedhomeip/connectedhomeip/.environment/cipd/packages/pigweed/ninja -v cmTC_1040d]
+        ignore line: [[1/2] /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-g++   -march=rv32imc_zicsr_zifencei     -v -o CMakeFiles/cmTC_1040d.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-g++]
         ignore line: [Target: riscv32-esp-elf]
@@ -3543,8 +3613,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-march=rv32imc_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_d4567.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_d4567.dir/']
-        ignore line: [ /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/cc1plus -quiet -v -imultilib rv32imc_zicsr_zifencei/ilp32 -iprefix /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/ -isysroot /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d4567.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=rv32imc_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -march=rv32imc_zicsr_zifencei -version -o /var/folders/l3/ql4b4y593n5fwxdhl2k094pc0000gn/T//ccVm3Akn.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=rv32imc_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_1040d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_1040d.dir/']
+        ignore line: [ /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/cc1plus -quiet -v -imultilib rv32imc_zicsr_zifencei/ilp32 -iprefix /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/ -isysroot /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_1040d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=rv32imc_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -march=rv32imc_zicsr_zifencei -version -o /var/folders/l3/ql4b4y593n5fwxdhl2k094pc0000gn/T//ccBmxMnt.s]
         ignore line: [GNU C++17 (crosstool-NG esp-14.2.0_20241119) version 14.2.0 (riscv32-esp-elf)]
         ignore line: [	compiled by GNU C version Debian Clang 11.0.1  GMP version 6.2.1  MPFR version 4.2.1  MPC version 1.2.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -3567,13 +3637,13 @@ events:
         ignore line: [ /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 6e49372a1109dc465056ef40790c161d]
-        ignore line: [COLLECT_GCC_OPTIONS='-march=rv32imc_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_d4567.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_d4567.dir/']
-        ignore line: [ /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/as -v --traditional-format -march=rv32imc_zicsr_zifencei -march=rv32imc_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -o CMakeFiles/cmTC_d4567.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/l3/ql4b4y593n5fwxdhl2k094pc0000gn/T//ccVm3Akn.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=rv32imc_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_1040d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_1040d.dir/']
+        ignore line: [ /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/as -v --traditional-format -march=rv32imc_zicsr_zifencei -march=rv32imc_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -o CMakeFiles/cmTC_1040d.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/l3/ql4b4y593n5fwxdhl2k094pc0000gn/T//ccBmxMnt.s]
         ignore line: [GNU assembler version 2.43.1 (riscv32-esp-elf) using BFD version (crosstool-NG esp-14.2.0_20241119) 2.43.1]
         ignore line: [COMPILER_PATH=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/]
         ignore line: [LIBRARY_PATH=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imc_zicsr_zifencei/ilp32/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-march=rv32imc_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_d4567.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_d4567.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [[2/2] : && /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-g++ -march=rv32imc_zicsr_zifencei -nostartfiles -march=rv32imc_zicsr_zifencei  -v CMakeFiles/cmTC_d4567.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_d4567   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=rv32imc_zicsr_zifencei' '-v' '-o' 'CMakeFiles/cmTC_1040d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_1040d.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-g++ -march=rv32imc_zicsr_zifencei -nostartfiles -march=rv32imc_zicsr_zifencei  -v CMakeFiles/cmTC_1040d.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_1040d   && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-g++]
         ignore line: [COLLECT_LTO_WRAPPER=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/lto-wrapper]
@@ -3584,13 +3654,13 @@ events:
         ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) ]
         ignore line: [COMPILER_PATH=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/]
         ignore line: [LIBRARY_PATH=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imc_zicsr_zifencei/ilp32/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/:/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-nostartfiles' '-march=rv32imc_zicsr_zifencei' '-v' '-o' 'cmTC_d4567' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'cmTC_d4567.']
-        link line: [ /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/collect2 -plugin /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/l3/ql4b4y593n5fwxdhl2k094pc0000gn/T//cco2bHrt.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf -melf32lriscv -X -o cmTC_d4567 -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imc_zicsr_zifencei/ilp32 -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32 -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32 -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0 -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/usr/lib CMakeFiles/cmTC_d4567.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc]
+        ignore line: [COLLECT_GCC_OPTIONS='-nostartfiles' '-march=rv32imc_zicsr_zifencei' '-v' '-o' 'cmTC_1040d' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'cmTC_1040d.']
+        link line: [ /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/collect2 -plugin /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/l3/ql4b4y593n5fwxdhl2k094pc0000gn/T//ccnvVWRj.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf -melf32lriscv -X -o cmTC_1040d -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imc_zicsr_zifencei/ilp32 -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32 -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32 -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0 -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib -L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/usr/lib CMakeFiles/cmTC_1040d.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc]
           arg [/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../libexec/gcc/riscv32-esp-elf/14.2.0/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/var/folders/l3/ql4b4y593n5fwxdhl2k094pc0000gn/T//cco2bHrt.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/var/folders/l3/ql4b4y593n5fwxdhl2k094pc0000gn/T//ccnvVWRj.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
           arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
@@ -3600,7 +3670,7 @@ events:
           arg [-melf32lriscv] ==> ignore
           arg [-X] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_d4567] ==> ignore
+          arg [cmTC_1040d] ==> ignore
           arg [-L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imc_zicsr_zifencei/ilp32] ==> dir [/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imc_zicsr_zifencei/ilp32]
           arg [-L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32] ==> dir [/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32]
           arg [-L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32] ==> dir [/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32]
@@ -3609,7 +3679,7 @@ events:
           arg [-L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib] ==> dir [/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/lib]
           arg [-L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib] ==> dir [/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/lib]
           arg [-L/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/usr/lib] ==> dir [/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../riscv32-esp-elf/usr/lib]
-          arg [CMakeFiles/cmTC_d4567.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [CMakeFiles/cmTC_1040d.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc] ==> lib [gcc]
@@ -3619,7 +3689,7 @@ events:
           arg [-lgcc] ==> lib [gcc]
         ignore line: [/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/ld: warning: cannot find entry symbol _start]
         ignore line: [ defaulting to 000100b4]
-        ignore line: [COLLECT_GCC_OPTIONS='-nostartfiles' '-march=rv32imc_zicsr_zifencei' '-v' '-o' 'cmTC_d4567' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'cmTC_d4567.']
+        ignore line: [COLLECT_GCC_OPTIONS='-nostartfiles' '-march=rv32imc_zicsr_zifencei' '-v' '-o' 'cmTC_1040d' '-mabi=ilp32' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei' '-dumpdir' 'cmTC_1040d.']
         ignore line: []
         ignore line: []
         collapse library dir [/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/rv32imc_zicsr_zifencei/ilp32] ==> [/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/14.2.0/rv32imc_zicsr_zifencei/ilp32]
@@ -3647,23 +3717,23 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/Users/mirzashafi/esp/light/build/CMakeFiles/CMakeScratch/TryCompile-CKX0zD"
-      binary: "/Users/mirzashafi/esp/light/build/CMakeFiles/CMakeScratch/TryCompile-CKX0zD"
+      source: "/Users/mirzashafi/esp/MotionLux_PIR/build/CMakeFiles/CMakeScratch/TryCompile-SXI7Yx"
+      binary: "/Users/mirzashafi/esp/MotionLux_PIR/build/CMakeFiles/CMakeScratch/TryCompile-SXI7Yx"
     cmakeVariables:
       CMAKE_C_FLAGS: "-march=rv32imc_zicsr_zifencei "
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: "-nostartfiles -march=rv32imc_zicsr_zifencei "
-      CMAKE_MODULE_PATH: "/Users/mirzashafi/esp/light/managed_components/espressif__cmake_utilities;/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/cmake;/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/cmake/third_party"
+      CMAKE_MODULE_PATH: "/Users/mirzashafi/esp/MotionLux_PIR/managed_components/espressif__cmake_utilities;/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/cmake;/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/cmake/third_party"
     buildResult:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/Users/mirzashafi/esp/light/build/CMakeFiles/CMakeScratch/TryCompile-CKX0zD'
+        Change Dir: '/Users/mirzashafi/esp/MotionLux_PIR/build/CMakeFiles/CMakeScratch/TryCompile-SXI7Yx'
         
-        Run Build Command(s): /Users/mirzashafi/esp/esp-matter/connectedhomeip/connectedhomeip/.environment/cipd/packages/pigweed/ninja -v cmTC_3ffad
-        [1/2] /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-gcc -DCMAKE_HAVE_LIBC_PTHREAD  -march=rv32imc_zicsr_zifencei -o CMakeFiles/cmTC_3ffad.dir/src.c.obj -c /Users/mirzashafi/esp/light/build/CMakeFiles/CMakeScratch/TryCompile-CKX0zD/src.c
-        [2/2] : && /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-gcc -march=rv32imc_zicsr_zifencei -nostartfiles -march=rv32imc_zicsr_zifencei CMakeFiles/cmTC_3ffad.dir/src.c.obj -o cmTC_3ffad   && :
-        /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/ld: CMakeFiles/cmTC_3ffad.dir/src.c.obj: in function `main':
+        Run Build Command(s): /Users/mirzashafi/esp/esp-matter/connectedhomeip/connectedhomeip/.environment/cipd/packages/pigweed/ninja -v cmTC_fceb7
+        [1/2] /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-gcc -DCMAKE_HAVE_LIBC_PTHREAD  -march=rv32imc_zicsr_zifencei -o CMakeFiles/cmTC_fceb7.dir/src.c.obj -c /Users/mirzashafi/esp/MotionLux_PIR/build/CMakeFiles/CMakeScratch/TryCompile-SXI7Yx/src.c
+        [2/2] : && /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-gcc -march=rv32imc_zicsr_zifencei -nostartfiles -march=rv32imc_zicsr_zifencei CMakeFiles/cmTC_fceb7.dir/src.c.obj -o cmTC_fceb7   && :
+        /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/ld: CMakeFiles/cmTC_fceb7.dir/src.c.obj: in function `main':
         src.c:(.text+0x6e): warning: pthread_atfork is not implemented and will always fail
         /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/ld: src.c:(.text+0x50): warning: pthread_cancel is not implemented and will always fail
         /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/ld: src.c:(.text+0x34): warning: pthread_create is not implemented and will always fail
@@ -3683,22 +3753,22 @@ events:
     checks:
       - "Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS"
     directories:
-      source: "/Users/mirzashafi/esp/light/build/CMakeFiles/CMakeScratch/TryCompile-3NgZ9K"
-      binary: "/Users/mirzashafi/esp/light/build/CMakeFiles/CMakeScratch/TryCompile-3NgZ9K"
+      source: "/Users/mirzashafi/esp/MotionLux_PIR/build/CMakeFiles/CMakeScratch/TryCompile-Jn5zp3"
+      binary: "/Users/mirzashafi/esp/MotionLux_PIR/build/CMakeFiles/CMakeScratch/TryCompile-Jn5zp3"
     cmakeVariables:
       CMAKE_C_FLAGS: "-march=rv32imc_zicsr_zifencei  -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow"
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: "-nostartfiles -march=rv32imc_zicsr_zifencei "
-      CMAKE_MODULE_PATH: "/Users/mirzashafi/esp/light/managed_components/espressif__cmake_utilities;/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/cmake;/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/cmake/third_party"
+      CMAKE_MODULE_PATH: "/Users/mirzashafi/esp/MotionLux_PIR/managed_components/espressif__cmake_utilities;/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/cmake;/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/cmake/third_party"
     buildResult:
       variable: "C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS"
       cached: true
       stdout: |
-        Change Dir: '/Users/mirzashafi/esp/light/build/CMakeFiles/CMakeScratch/TryCompile-3NgZ9K'
+        Change Dir: '/Users/mirzashafi/esp/MotionLux_PIR/build/CMakeFiles/CMakeScratch/TryCompile-Jn5zp3'
         
-        Run Build Command(s): /Users/mirzashafi/esp/esp-matter/connectedhomeip/connectedhomeip/.environment/cipd/packages/pigweed/ninja -v cmTC_f3a61
-        [1/2] /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-gcc -DC_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS  -march=rv32imc_zicsr_zifencei  -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow    -Wformat-signedness -o CMakeFiles/cmTC_f3a61.dir/src.c.obj -c /Users/mirzashafi/esp/light/build/CMakeFiles/CMakeScratch/TryCompile-3NgZ9K/src.c
-        [2/2] : && /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-gcc -march=rv32imc_zicsr_zifencei  -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow -nostartfiles -march=rv32imc_zicsr_zifencei CMakeFiles/cmTC_f3a61.dir/src.c.obj -o cmTC_f3a61   && :
+        Run Build Command(s): /Users/mirzashafi/esp/esp-matter/connectedhomeip/connectedhomeip/.environment/cipd/packages/pigweed/ninja -v cmTC_cfc7a
+        [1/2] /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-gcc -DC_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS  -march=rv32imc_zicsr_zifencei  -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow    -Wformat-signedness -o CMakeFiles/cmTC_cfc7a.dir/src.c.obj -c /Users/mirzashafi/esp/MotionLux_PIR/build/CMakeFiles/CMakeScratch/TryCompile-Jn5zp3/src.c
+        [2/2] : && /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/riscv32-esp-elf-gcc -march=rv32imc_zicsr_zifencei  -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow -nostartfiles -march=rv32imc_zicsr_zifencei CMakeFiles/cmTC_cfc7a.dir/src.c.obj -o cmTC_cfc7a   && :
         /Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 00010094
         
       exitCode: 0
@@ -3733,8 +3803,9 @@ events:
       - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/"
       - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
-      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin/"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/"
       - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/opt/homebrew/opt/flex/bin/"
@@ -3777,8 +3848,9 @@ events:
         - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
         - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.14_env/bin"
+        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin"
         - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools"
+        - "/Users/mirzashafi/.antigravity/antigravity/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/opt/homebrew/opt/flex/bin"
@@ -3802,4 +3874,120 @@ events:
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PROGRAM_PATH:
         - "/bin"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/cmake/project.cmake:579 (find_program)"
+      - "CMakeLists.txt:51 (project)"
+    mode: "program"
+    variable: "CCACHE_FOUND"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ccache"
+    candidate_directories:
+      - "/Users/mirzashafi/esp/v5.5.1/esp-idf/components/espcoredump/"
+      - "/Users/mirzashafi/esp/v5.5.1/esp-idf/components/partition_table/"
+      - "/Users/mirzashafi/.espressif/tools/esp-rom-elfs/20241011/"
+      - "/Users/mirzashafi/.espressif/tools/ninja/1.12.1/"
+      - "/Users/mirzashafi/.espressif/tools/cmake/3.30.2/CMake.app/Contents/bin/"
+      - "/Users/mirzashafi/esp/esp-matter/connectedhomeip/connectedhomeip/.environment/cipd/packages/pigweed/"
+      - "/Users/mirzashafi/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/"
+      - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf-gdb/16.2_20250324/riscv32-esp-elf-gdb/bin/"
+      - "/Users/mirzashafi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/"
+      - "/Users/mirzashafi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/"
+      - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/"
+      - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
+      - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/"
+      - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/opt/homebrew/opt/flex/bin/"
+      - "/opt/homebrew/opt/bison/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.10/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+    searched_directories:
+      - "/Users/mirzashafi/esp/v5.5.1/esp-idf/components/espcoredump/ccache"
+      - "/Users/mirzashafi/esp/v5.5.1/esp-idf/components/partition_table/ccache"
+      - "/Users/mirzashafi/.espressif/tools/esp-rom-elfs/20241011/ccache"
+      - "/Users/mirzashafi/.espressif/tools/ninja/1.12.1/ccache"
+      - "/Users/mirzashafi/.espressif/tools/cmake/3.30.2/CMake.app/Contents/bin/ccache"
+      - "/Users/mirzashafi/esp/esp-matter/connectedhomeip/connectedhomeip/.environment/cipd/packages/pigweed/ccache"
+      - "/Users/mirzashafi/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin/ccache"
+      - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf-gdb/16.2_20250324/riscv32-esp-elf-gdb/bin/ccache"
+      - "/Users/mirzashafi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/ccache"
+      - "/Users/mirzashafi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/ccache"
+      - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/ccache"
+      - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/ccache"
+      - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin/ccache"
+      - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin/ccache"
+      - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools/ccache"
+      - "/Users/mirzashafi/.antigravity/antigravity/bin/ccache"
+    found: "/opt/homebrew/bin/ccache"
+    search_context:
+      ENV{PATH}:
+        - "/Users/mirzashafi/esp/v5.5.1/esp-idf/components/espcoredump"
+        - "/Users/mirzashafi/esp/v5.5.1/esp-idf/components/partition_table"
+        - "/Users/mirzashafi/.espressif/tools/esp-rom-elfs/20241011"
+        - "/Users/mirzashafi/.espressif/tools/ninja/1.12.1"
+        - "/Users/mirzashafi/.espressif/tools/cmake/3.30.2/CMake.app/Contents/bin"
+        - "/Users/mirzashafi/esp/esp-matter/connectedhomeip/connectedhomeip/.environment/cipd/packages/pigweed"
+        - "/Users/mirzashafi/.espressif/tools/xtensa-esp-elf-gdb/16.2_20250324/xtensa-esp-elf-gdb/bin"
+        - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf-gdb/16.2_20250324/riscv32-esp-elf-gdb/bin"
+        - "/Users/mirzashafi/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin"
+        - "/Users/mirzashafi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin"
+        - "/Users/mirzashafi/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
+        - "/Users/mirzashafi/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
+        - "/Users/mirzashafi/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
+        - "/Users/mirzashafi/.espressif/python_env/idf5.5_py3.12_env/bin"
+        - "/Users/mirzashafi/esp/v5.5.1/esp-idf/tools"
+        - "/Users/mirzashafi/.antigravity/antigravity/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/opt/homebrew/opt/flex/bin"
+        - "/opt/homebrew/opt/bison/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.10/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
 ...

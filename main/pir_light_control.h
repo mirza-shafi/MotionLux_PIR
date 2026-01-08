@@ -25,6 +25,12 @@ bool pir_light_is_on();
 // Manually set light (can be called from Matter attribute callbacks)
 esp_err_t pir_light_set(bool on);
 
+// Enable or disable PIR automatic control
+void pir_light_enable_auto_control(bool enable);
+
+// Check if PIR auto control is enabled
+bool pir_light_is_auto_control_enabled();
+
 #ifdef __cplusplus
 }
 #endif

@@ -1,4 +1,4 @@
-/* * Data converted from /Users/mirzashafi/esp/light/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /Users/mirzashafi/esp/MotionLux_PIR/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 #if !defined (__APPLE__) && !defined (__linux__)

@@ -7,5 +7,24 @@ menu "Example Configuration"
             Enable this option to include memory profiling features in the example.
             This will allow you to monitor memory usage during runtime.
 
+    config PIR_GPIO
+        int "PIR Sensor GPIO"
+        default 10
+        help
+            GPIO pin connected to PIR sensor output (default: GPIO10 for ESP32-C3)
+
+    config LIGHT_GPIO
+        int "Light Control GPIO"
+        default 8
+        help
+            GPIO pin for light control (default: GPIO8 for ESP32-C3)
+
+    config PIR_TIMEOUT_SECONDS
+        int "PIR Inactivity Timeout (seconds)"
+        default 120
+        range 10 600
+        help
+            Time in seconds before light turns off after no motion detected (default: 120 = 2 minutes)
+
 endmenu
 

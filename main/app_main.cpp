@@ -24,6 +24,8 @@
 #include <platform/ESP32/OpenthreadLauncher.h>
 #endif
 
+#include "pir_light_control.h"
+
 #include <app/server/CommissioningWindowManager.h>
 #include <app/server/Server.h>
 
@@ -175,6 +177,21 @@ extern "C" void app_main()
     nvs_flash_init();
 
     MEMORY_PROFILER_DUMP_HEAP_STAT("Bootup");
+
+    /* Initialize PIR Light Control System */
+    pir_light_config_t pir_config = {
+        .pir_gpio = GPIO_NUM_4,            // PIR sensor on GPIO4
+        .light_gpio = GPIO_NUM_8,          // Light control on GPIO8
+        .inactivity_timeout_ms = 30000,    // 30 seconds (for testing)
+        .debounce_ms = 500                 // 500ms debounce for PIR sensor
+    };
+    
+    err = pir_light_init(&pir_config);
+    if (err != ESP_OK) {
+        ESP_LOGE(TAG, "Failed to initialize PIR Light Control: %d", err);
+    } else {
+        ESP_LOGI(TAG, "PIR Light Control initialized successfully");
+    }
 
     /* Initialize driver */
     app_driver_handle_t light_handle = app_driver_light_init();

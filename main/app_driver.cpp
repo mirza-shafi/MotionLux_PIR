@@ -18,6 +18,8 @@
 #include <iot_button.h>
 #include <button_gpio.h>
 
+#include "pir_light_control.h"
+
 using namespace chip::app::Clusters;
 using namespace esp_matter;
 
@@ -30,8 +32,12 @@ extern uint16_t light_endpoint_id;
 /* Do any conversions/remapping for the actual value here */
 static esp_err_t app_driver_light_set_power(app_driver_handle_t handle, esp_matter_attr_val_t *val)
 {
-    ESP_LOGI(TAG, "Changing light power to %d", val->val.b);
-    gpio_set_level((gpio_num_t)GPIO_LED, val->val.b);
+    ESP_LOGI(TAG, "Matter app: Changing light power to %d", val->val.b);
+    
+    // Set the actual light via PIR control system
+    // PIR auto control is always active, app provides manual override
+    pir_light_set(val->val.b);
+    
     return ESP_OK;
 }
 
@@ -87,10 +93,9 @@ esp_err_t app_driver_light_set_defaults(uint16_t endpoint_id)
 
 app_driver_handle_t app_driver_light_init()
 {
-    /* Initialize led */
-    gpio_reset_pin((gpio_num_t)GPIO_LED);
-    gpio_set_direction((gpio_num_t)GPIO_LED, GPIO_MODE_OUTPUT);
-    gpio_set_level((gpio_num_t)GPIO_LED, DEFAULT_POWER);
+    // PIR control system will initialize the light GPIO
+    // No separate initialization needed here
+    ESP_LOGI(TAG, "Light driver init (GPIO managed by PIR control)");
     
     return (app_driver_handle_t)NULL; // No handle needed for simple GPIO
 }

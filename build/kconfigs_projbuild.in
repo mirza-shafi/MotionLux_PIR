@@ -3,4 +3,4 @@ source "/Users/mirzashafi/esp/v5.5.1/esp-idf/components/esp_app_format/Kconfig.p
 source "/Users/mirzashafi/esp/v5.5.1/esp-idf/components/esp_rom/Kconfig.projbuild"
 source "/Users/mirzashafi/esp/v5.5.1/esp-idf/components/esptool_py/Kconfig.projbuild"
 source "/Users/mirzashafi/esp/v5.5.1/esp-idf/components/partition_table/Kconfig.projbuild"
-source "/Users/mirzashafi/esp/light/main/Kconfig.projbuild"
+source "/Users/mirzashafi/esp/MotionLux_PIR/main/Kconfig.projbuild"

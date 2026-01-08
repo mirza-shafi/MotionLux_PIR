@@ -1,69 +1,114 @@
-# Quick Reference - PIR Motion Sensor Code
+# MotionLux PIR - Quick Reference Guide
 
 ## 📋 Documentation Files
 
 | File | Purpose | Read Time |
 |------|---------|-----------|
-| **REVIEW_SUMMARY.md** | Executive summary of all fixes | 5 min |
+| **README.md** | Project overview and quick start | 5 min |
+| **PIR_SETUP_GUIDE.md** | Complete setup, wiring, troubleshooting | 15 min |
+| **QUICK_REFERENCE.md** | This file - commands and settings | 2 min |
 | **CODE_WALKTHROUGH.md** | Line-by-line code explanation | 15 min |
 | **ARCHITECTURE_DIAGRAMS.md** | Visual diagrams and flows | 10 min |
 | **CONFIGURATION_GUIDE.md** | How to customize everything | 10 min |
-| **PIR_CODE_REVIEW.md** | Detailed technical review | 8 min |
 
-## 🚀 Quick Start (30 seconds)
+## 🎯 Key Settings (Current Configuration)
 
 ```cpp
-// In app_main.cpp - already done for you!
+// In main/app_main.cpp (lines 180-183)
 
 pir_light_config_t pir_config = {
-    .pir_gpio = GPIO_NUM_8,              // Change this for different pin
-    .light_gpio = GPIO_NUM_8,            // Change this for light pin
-    .inactivity_timeout_ms = 5 * 60 * 1000,  // Change timeout (ms)
-    .debounce_ms = 100,                  // Change debounce
+    .pir_gpio = GPIO_NUM_10,           // PIR sensor input
+    .light_gpio = GPIO_NUM_8,          // Light control output
+    .inactivity_timeout_ms = 120000,   // 2 minutes (in milliseconds)
+    .debounce_ms = 500                 // 500ms debounce
 };
-
-pir_light_init(&pir_config, light_endpoint_id);  // Initialize
 ```
 
-## 📁 New Files Created
+## 📌 Pin Connections (ESP32-C3)
+
+```
+PIR Sensor:
+  VCC  → 3.3V or 5V (check sensor specs)
+  GND  → GND
+  OUT  → GPIO 10
+
+Light Control:
+  GPIO 8  → Relay IN / LED+
+  GND     → Common GND
+
+Button (Optional):
+  GPIO 9  → Button (active low)
+  GND     → Other side of button
+```
+## 🚀 Quick Commands
+
+```bash
+# Set target to ESP32-C3
+idf.py set-target esp32c3
+
+# Build and flash
+idf.py build flash monitor
+
+# Just build
+idf.py build
+
+# Clean and rebuild
+idf.py fullclean
+idf.py build
+
+# Configure options
+idf.py menuconfig
+# Navigate to: Example Configuration
+
+# Erase flash (factory reset)
+idf.py erase-flash
+```
+
+## 📁 Key Files Modified
 
 ```
 main/
-├── pir_light_control.h         ← Public API (header)
-└── pir_light_control.cpp       ← Implementation (170 lines)
+├── pir_light_control.h         ← PIR API header
+├── pir_light_control.cpp       ← PIR implementation
+├── app_driver.cpp              ← Light control integration
+├── app_main.cpp                ← PIR initialization
+└── Kconfig.projbuild           ← Configuration options
 ```
 
 ## 🔧 Customization Cheat Sheet
 
-### Change GPIO Pins
+### Change GPIO Pins (in main/app_main.cpp)
 ```cpp
-.pir_gpio = GPIO_NUM_8,      // Sensor input
-.light_gpio = GPIO_NUM_9,    // Light output
+.pir_gpio = GPIO_NUM_10,     // PIR sensor input
+.light_gpio = GPIO_NUM_8,    // Light control output
 ```
 
-### Change Timeout (5 minutes default)
+### Change Timeout (in main/app_main.cpp)
 ```cpp
-.inactivity_timeout_ms = 10 * 60 * 1000,  // 10 minutes
-.inactivity_timeout_ms = 3 * 60 * 1000,   // 3 minutes
-.inactivity_timeout_ms = 30 * 1000,       // 30 seconds (test)
+.inactivity_timeout_ms = 60000,    // 1 minute
+.inactivity_timeout_ms = 120000,   // 2 minutes (default)
+.inactivity_timeout_ms = 300000,   // 5 minutes
+.inactivity_timeout_ms = 600000,   // 10 minutes
 ```
 
-### Change Debounce (100ms default)
+### Change Debounce (in main/app_main.cpp)
 ```cpp
-.debounce_ms = 50,   // More sensitive
-.debounce_ms = 200,  // Less sensitive
+.debounce_ms = 250,   // Less sensitive
+.debounce_ms = 500,   // Default
+.debounce_ms = 1000,  // Very stable
 ```
 
-## 🎯 What Was Fixed
+## 🎯 System Behavior
 
-| Issue | Fix |
-|-------|-----|
-| ❌ Headers in function | ✅ Moved to top |
-| ❌ Wrong GPIO mode | ✅ Input/Output separated |
-| ❌ Lambda capture bug | ✅ Proper callbacks |
-| ❌ Timer type error | ✅ Function pointers |
-| ❌ No debouncing | ✅ 100ms debounce added |
-| ❌ Mixed code | ✅ Separated modules |
+| Action | Result | PIR Status |
+|--------|--------|------------|
+| Turn ON via app | Light ON | ✅ PIR Enabled |
+| Motion detected (while ON) | Timer resets | ✅ Active |
+| No motion for 2 min | Auto OFF | ❌ Disabled |
+| Turn OFF via app | Light OFF | ❌ Disabled |
+| Motion while OFF | No action | ❌ Disabled |
+
+**Key Point:** PIR sensor ONLY works when light is manually turned ON via Matter app.
 
 ## 📊 System Overview
 

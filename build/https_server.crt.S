@@ -1,4 +1,4 @@
-/* * Data converted from /Users/mirzashafi/esp/light/managed_components/espressif__esp_insights/server_certs/https_server.crt
+/* * Data converted from /Users/mirzashafi/esp/MotionLux_PIR/managed_components/espressif__esp_insights/server_certs/https_server.crt
  * (null byte appended)
  */
 .data
